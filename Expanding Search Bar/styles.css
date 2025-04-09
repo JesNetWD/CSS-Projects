@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 75%;
+}
+
+.sr-only {
+  visibility: hidden;
+}
+
+input {
+  padding: 0.5em 0;
+  margin: 50px;
+  border-radius: 5px;
+  width: 25%;
+  border: 2px solid #ddd;
+  color: #bbb;
+  font-size: 1rem;
+  transition: all 1s 0.4s ease;
+}
+
+input:hover,
+image:active {
+  width: 100%;
+  border: 2px solid #336fd5;
+}
