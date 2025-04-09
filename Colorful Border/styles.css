@@ -43,7 +43,9 @@ body {
   color: #cbcbcb;
   background-color: #000;
   border: none;
-  font-family: Karla, sans-serif;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .button:hover {
