@@ -5,26 +5,42 @@ body {
 }
 
 .container {
-  width: 75%;
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+  min-width: 320px;
 }
 
 .sr-only {
-  visibility: hidden;
+  position: absolute; /* Remove the text from the normal flow */
+  width: 1px; /* Set the width to the smallest possible size */
+  height: 1px; /* Set the height to the smallest possible size */
+  margin: -1px; /* Negative margin ensures that the element is off-screen */
+  padding: 0; /* Remove any padding */
+  border: 0; /* Remove any border */
+  clip: rect(0, 0, 0, 0); /* Clip the element so it doesn't occupy any space */
+  overflow: hidden; /* Hide any content overflowing */
 }
 
-input {
-  padding: 0.5em 0;
-  margin: 50px;
-  border-radius: 5px;
-  width: 25%;
+.search-bar {
   border: 2px solid #ddd;
-  color: #bbb;
+  border-radius: 5px;
+  width: 30%;
+  line-height: 2;
   font-size: 1rem;
-  transition: all 1s 0.4s ease;
+  transition: width 0.8s 0.2s ease, border-color 0.2s ease;
+  outline: none;
 }
 
-input:hover,
-image:active {
+.search-bar:focus {
   width: 100%;
-  border: 2px solid #336fd5;
+  border-color: #3a71ca;
+}
+
+.search-bar::placeholder {
+  font-weight: 200;
+}
+
+input:focus::placeholder {
+  opacity: 0;
 }
