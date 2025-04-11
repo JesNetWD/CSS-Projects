@@ -2,17 +2,20 @@
 
 A growing collection of small CSS projects I created to practice and improve my front-end skills.  
 Each folder contains a mini project focused on a specific concept or UI component.
+These projects were created as part of a [FreeCodeCamp course](https://www.youtube.com/watch?v=TzuWIHGFKCQ&pp=ygVAMjQgY3NzIHByb2plY3RzIGxvYWRpbmcgYW5pbWF0aW9uIHByb2dyZXNzIGJhciBmbGFzaGNhcmRzICYgbW9yZQ%3D%3D).
 
 ---
 
 ## 📁 Project List
 - **Colorful Border** - A visually appealing border using gradients.
+- **Expanding Search Bar** - A smooth, expanding search input field using CSS animations.
 
 ### ✅ Completed
 - Colorful Border
+- Expanding Search Bar
 
 ### 🛠️ In Progress / Planned
-- **Expanding Search Bar** – A smooth, expanding search input field using CSS animations.
+- **Codepen Tile** – A visually appealing, responsive tile design.
 
 ---
 
