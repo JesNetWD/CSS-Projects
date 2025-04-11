@@ -20,8 +20,9 @@ body {
 .card {
   margin: 0 auto;
   background-color: var(--bg-card);
-  max-width: 420px;
+  min-width: 320px;
   width: 100%;
+  max-width: 420px;
   border-radius: 10px;
 }
 
@@ -69,19 +70,14 @@ body {
 .card-stats li {
   display: inline-block;
   background-color: var(--bg-stats);
-  margin: 1rem 0rem 0.75rem 1.25rem;
-  padding: 1px 5px;
-  /* width: 3rem; */
-  /* 
-  */
+  margin: 1rem 0 0.75rem 1.25rem;
+  padding: 2px 4px;
 }
 
-/* .card-stats {
-  width: 100%;
-  padding: unset;
-  margin: 0;
+.card-stats img {
+  margin-bottom: -5px;
 }
-.card-stats li {
-  display: inline;
-  padding: 1em;
-} */
+
+.card:hover .card-stats {
+  display: none;
+}
