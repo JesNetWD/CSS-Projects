@@ -1,0 +1,87 @@
+:root {
+  --bg-main: #131417;
+  --bg-card: #1e1f26;
+  --bg-stats: #131417;
+  --username: #b7bbc8;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--username);
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: var(--bg-card);
+  max-width: 420px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-thumbnail {
+  padding: 1.25rem;
+}
+
+.card-thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  column-gap: 1em;
+  align-items: center;
+  padding-left: 1.25rem;
+}
+
+.card-body img {
+  border-radius: 20%;
+  width: 5em;
+}
+
+.card-details {
+  margin-top: -2rem;
+}
+
+.card-details h3,
+.card-details P {
+  margin: 0;
+}
+
+.card-details h3 {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.card-stats {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-stats li {
+  display: inline-block;
+  background-color: var(--bg-stats);
+  margin: 1rem 0rem 0.75rem 1.25rem;
+  padding: 1px 5px;
+  /* width: 3rem; */
+  /* 
+  */
+}
+
+/* .card-stats {
+  width: 100%;
+  padding: unset;
+  margin: 0;
+}
+.card-stats li {
+  display: inline;
+  padding: 1em;
+} */
