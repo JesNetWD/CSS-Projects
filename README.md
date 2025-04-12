@@ -7,15 +7,20 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 ---
 
 ## 📁 Project List
+
 - **Colorful Border** - A visually appealing border using gradients.
 - **Expanding Search Bar** - A smooth, expanding search input field using CSS animations.
+- **Codepen Tile** – A visually appealing, responsive tile design.
 
 ### ✅ Completed
+
 - Colorful Border
 - Expanding Search Bar
+- Codepen Tile
 
 ### 🛠️ In Progress / Planned
-- **Codepen Tile** – A visually appealing, responsive tile design.
+
+- **Loading Animation** - A dynamic loading animation using CSS animations.
 
 ---
 
@@ -24,4 +29,3 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 This repo serves as a sandbox for trying out creative CSS ideas, learning new techniques, and tracking my progress as a developer.
 
 Feel free to explore or suggest improvements!
-
