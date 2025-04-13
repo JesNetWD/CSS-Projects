@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+  animation: rotate 1.5s infinite;
+  transform: rotate(45deg);
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: lawngreen;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}

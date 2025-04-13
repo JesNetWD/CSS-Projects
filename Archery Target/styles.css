@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#black {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+#blue {
+  background-color: blue;
+  width: 75%;
+  height: 75%;
+}
+
+#red {
+  background-color: red;
+  width: 66%;
+  height: 66%;
+}
+
+#yellow {
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+}
