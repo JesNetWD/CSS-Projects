@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: blue;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  animation: loading infinite alternate 1s;
+}
+
+@keyframes loading {
+  from {
+    background-color: darkblue;
+  }
+  to {
+    background-color: lightblue;
+    height: 2.1rem;
+    width: 2.1rem;
+  }
+}
