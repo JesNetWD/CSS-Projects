@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1::after {
+  content: "";
+  background-color: #5134ff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 4px;
+  animation: carousel 5s linear infinite;
+}
+
+@keyframes carousel {
+  0% {
+    content: "Fish Barbecue";
+  }
+  25% {
+    content: "Suya";
+  }
+  50% {
+    content: "Reading";
+  }
+  75% {
+    content: "Coding";
+  }
+  100% {
+    content: "Fish Barbecue";
+  }
+}
