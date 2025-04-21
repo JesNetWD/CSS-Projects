@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+:root {
+  --white: #fff;
+  --red: #fc3e32;
+  --green: #007e39;
+}
+
+.flag {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 300px;
+  height: 200px;
+}
+
+.white {
+  background-color: var(--white);
+}
+
+.stripe {
+  display: grid;
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.green {
+  background-color: var(--green);
+}

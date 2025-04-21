@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.flag {
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+
+.stripes {
+  flex-grow: 1;
+}
+
+#blue {
+  background-color: #002495;
+}
+
+#white {
+  background-color: #fff;
+}
+
+#red {
+  background-color: #ed2938;
+}
