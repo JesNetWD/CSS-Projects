@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: grey;
 }
 
 .flag {
@@ -24,6 +25,10 @@ body {
 
 .red {
   background-color: var(--red);
+}
+
+.white {
+  background-color: white;
 }
 
 .sec {
