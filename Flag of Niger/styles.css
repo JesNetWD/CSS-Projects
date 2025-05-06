@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --orange: #e15307;
+  --green: #16af2a;
+  --flag-height: 250px;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flag {
+  display: grid;
+  width: calc(var(--flag-height) * 7 / 6);
+  height: var(--flag-height);
+}
+
+.red {
+  background-color: var(--orange);
+}
+
+.white {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.circle {
+  width: calc(var(--flag-height) / 3 * 0.85);
+  height: 85%;
+  border-radius: 50%;
+}
