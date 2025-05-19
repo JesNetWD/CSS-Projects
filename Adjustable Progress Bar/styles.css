@@ -23,18 +23,18 @@
 }
 
 .stage-1 {
-  background-color: red;
+  background-color: #ff0000;
   width: 25%;
 }
 
 .stage-2 {
-  background-color: orangered;
+  background-color: #ff4500;
   width: 50%;
 }
 
 .stage-3 {
   width: 75%;
-  background-color: #5cf73d;
+  background-color: #5ff73d;
 }
 
 .stage-4 {
