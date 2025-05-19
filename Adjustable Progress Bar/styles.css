@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+.prog-status {
+  height: 100%;
+  border-radius: 25px;
+}
+
+.stage-1 {
+  background-color: red;
+  width: 25%;
+}
+
+.stage-2 {
+  background-color: orangered;
+  width: 50%;
+}
+
+.stage-3 {
+  width: 75%;
+  background-color: #5cf73d;
+}
+
+.stage-4 {
+  width: 100%;
+  background-color: #4cf53d;
+}
