@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8e8eaa;
+}
+
+.switch-bar {
+  width: 200px;
+  height: 65px;
+  border: 5px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 4px;
+  overflow: hidden;
+  background-color: red;
+  position: relative;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-switch {
+  width: 65px;
+  height: 65px;
+  background-color: #000;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.toggle-input:checked + .toggle-switch {
+  background-color: #fff;
+  transform: translateX(135px);
+}
+
+.toggle-input:checked + .toggle-switch::before {
+  content: "ON";
+  position: absolute;
+  top: 16px;
+  right: 100px;
+  font-size: 2em;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.toggle-input + .toggle-switch::after {
+  content: "OFF";
+  font-size: 2em;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+.switch-bar:has(.toggle-input:checked) {
+  background-color: greenyellow;
+}
