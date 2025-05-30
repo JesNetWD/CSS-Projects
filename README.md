@@ -15,6 +15,7 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 - **Loading Animation 2** - A colorful spinning using CSS animation.
 - **Archery Target** - A colorful target board created using CSS flexbox.
 - **Word Carousel** - A looping text carousel that cycles through words with clean transitions.
+- **Flag of France** - A simple recreation of the French flag using only HTML and CSS layout.
 
 ### ✅ Completed
 
@@ -25,10 +26,11 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 - Loading Animation 2
 - Archery Target
 - Word Carousel
+- Jeopardy Flashcard
 
 ### 🛠️ In Progress / Planned
 
-- **Flag of France** - A simple recreation of the French flag using only HTML and CSS layout.
+- **Toggle Switch** -
 
 ---
 
