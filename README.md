@@ -24,6 +24,7 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 - Codepen Tile
 - Loading Animation 1
 - Loading Animation 2
+- Loading Animation 3
 - Archery Target
 - Word Carousel
 - Flag og France
