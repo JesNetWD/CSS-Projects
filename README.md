@@ -26,11 +26,19 @@ These projects were created as part of a [FreeCodeCamp course](https://www.youtu
 - Loading Animation 2
 - Archery Target
 - Word Carousel
+- Flag og France
+- Flag of Germany
+- Flag of Japan
+- Flag of Niger
+- Flag of Madagascar
+- Flag of Sweden
+- Flag of Switzerland
 - Jeopardy Flashcard
 
 ### 🛠️ In Progress / Planned
 
 - **Toggle Switch** -
+- **Instagram Stories Menu** -
 
 ---
 
